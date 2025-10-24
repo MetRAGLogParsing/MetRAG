@@ -1,0 +1,11 @@
+Rule,Example,Template,RuleNumber
+IP with Port ,External connection received from /8.8.8.8:12345,External connection received from <*>:<*>,rule1
+File Path,workerEnv.config() done /etc/apache2/sites-available/000-default.conf,workerEnv.config() done <*>,rule2
+MAC Address,Network interface eth1 came up with address 08:00:27:13:69:77  ,Network interface eth1 came up with address <*>,rule3
+IP Address,remote access granted to 67.89.123.45 ,remote access granted to <*>,rule4
+Domain:Port,access.proxy.example.com:8443 opened SSL tunnel ,<*>:<*> opened SSL tunnel ,rule5
+Hexadecimal Token,inconsistent nodesets host-457 0x1234beef <ok>,inconsistent nodesets <*> <*> <ok> ,rule6
+Timestamp,accepted client request at Wed Mar 09 14:02:33 2024,accepted client request at <*> <*> <*> <*>:<*>:<*> <*>,rule7
+Numeric Identifier,init_worker() Registered thread 9982 under bucket 21,init_worker() Registered thread <*> under bucket <*>,rule8
+AlphaNumeric Token,ServerFileSystem domain dataCenter_04 exceeded limit,ServerFileSystem domain <*> exceeded limit,rule9
+Static Message,instruction cache parity error corrected,instruction cache parity error corrected,rule10
